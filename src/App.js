@@ -1,9 +1,10 @@
 import React from 'react';
+import Hero from '../src/components/Hero'
 
 function App() {
   return (
-    <div className="text-3xl font-bold underline">
-        Hello
+    <div>
+        <Hero />
     </div>
   );
 }
