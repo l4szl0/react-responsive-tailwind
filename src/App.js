@@ -1,10 +1,12 @@
 import React from 'react';
-import Hero from '../src/components/Hero'
+import Hero from './components/Hero'
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <div>
-        <Hero />
+      <Navbar />
+      <Hero />
     </div>
   );
 }
